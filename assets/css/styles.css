@@ -113,6 +113,16 @@ button, input{
 
 /*=============== LAYOUT ===============*/
 
+.container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid{
+    display: grid;
+}
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
@@ -207,13 +217,25 @@ button, input{
 
 /*=============== MAIN ===============*/
 
-.main{
-    margin-left: 100px;
-}
-
-
 
 /*===== Home Section =====*/
+
+.home{
+    background: url(../img/bbs-vitoria.png);
+    background-size: cover;
+    background-position:  center;
+    height: 100vh;
+}
+
+.home-img{
+    display: none;
+}
+
+.home-data{
+    margin-left: 8.825rem;
+    width: 50vw;
+}
+
 
 
 /*===== Buttons =====*/
