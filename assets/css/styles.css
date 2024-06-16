@@ -108,21 +108,19 @@ button{
 button, input{
     border: none;
     outline: none;
-
 }
 
 /*=============== LAYOUT ===============*/
 
 .container{
     max-width: 1250px;
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
 }
 
 .grid{
     display: grid;
 }
-
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
@@ -217,6 +215,9 @@ button, input{
 
 /*=============== MAIN ===============*/
 
+.main{
+    margin-left: 60px;
+}
 
 /*===== Home Section =====*/
 
@@ -232,10 +233,19 @@ button, input{
 }
 
 .home-data{
-    margin-left: 8.825rem;
-    width: 50vw;
+    width: 40vw;
 }
 
+.home-social-links{
+    display: flex;
+    align-items: center;
+
+}
+
+.home-social-link{
+    color: var(--text-color);
+    font-size: x-large;
+}
 
 
 /*===== Buttons =====*/
