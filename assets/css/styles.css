@@ -232,7 +232,7 @@ button, input{
     display: none;
 }
 
-.home-data{
+.home-data, .about, .skills, .work, .services, .contact{
     display: flex;
     flex-direction: column;
     width: 30vw;
